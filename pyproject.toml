@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "amazing-hunting"
+version = "0.1.0"
+description = ""
+authors = ["igor"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^4.2.6"
+psycopg2 = "^2.9.9"
+pillow = "^10.1.0"
+djangorestframework = "^3.14.0"
+djangorestframework-simplejwt = "^5.3.0"
+pytest = "^7.4.3"
+pytest-factoryboy = "^2.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
